@@ -1,4 +1,4 @@
-/// <reference types = "Cypress" /> 
+
 //describe ('Mobile phone replenishment', () => {
     
     //context("Replenishment less than the allowed amount", ()=> {
@@ -6,6 +6,8 @@
     //});
   
 //});
+
+//Comment
 
 it('Using Get with Find and Eq', () => {
   cy.visit('https://next.privat24.ua/deposit/open')
@@ -17,5 +19,5 @@ it.only('Using Get with Find and Eq', () => {
   cy.visit('https://docs.cypress.io/api/commands/eq#Syntax')
   cy.get('aside').find('div').find('nav').find('ul').find('a').eq(0)
 });
-
+ 
 
